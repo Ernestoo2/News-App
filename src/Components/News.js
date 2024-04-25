@@ -12,7 +12,7 @@ export class News extends Component {
         }
         async componentDidMount() {
             if (this.props.news) {
-              const url = `https://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=${process.env.REACT_APP_API}`;
+              const url = `https://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=2768fa544ee847caac2f4ff23a08d333;
               console.log(this.props.news);
 
               try {
